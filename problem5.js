@@ -20,7 +20,7 @@ function waitingTime(waitingTimes, serialNumber) {
   return interviewTimeLeft;
 }
 
-const waitingTimes = 100;
+const waitingTimes = [10, 5, 3, 4, 7];
 const serialNumber = 10;
 
 const interviewTimeLeft = waitingTime(waitingTimes, serialNumber);

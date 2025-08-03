@@ -26,7 +26,7 @@ const studentInfo = {
   isFFamily: true, 
 }
 
-const isAdmissionEligible = calculateFinalScore([100, 200]);
+const isAdmissionEligible = calculateFinalScore(studentInfo);
 
 console.log(isAdmissionEligible);
 
